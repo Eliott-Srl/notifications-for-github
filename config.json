@@ -1,0 +1,9 @@
+{
+    "targeted_account": "Eliott-srl",
+    "notify_new_repos": "True",
+    "notify_new_followers": "True",
+    "msg_discord": "True",
+    "bot_discord_token": "DEFAULT",
+    "id_channel_discord": "DEFAULT",
+    "cron_time": 300
+}
