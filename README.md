@@ -27,4 +27,4 @@ python notification_github.py
 If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/Eliott-srl/Notifications_for_github/issues) or message me on [Discord](https://discord.com/) at Eliott SRL#8130.
 
 # Known issue
-* You can be tempo ban from the Github api if the timer is too short ! 
+* You can be temp ban from the Github api if the timer is too short ! 
