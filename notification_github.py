@@ -20,7 +20,7 @@ class db():
 def export_json(what: dict, where: str) -> None:
     path = db.path + '/' + where
     with open(path, 'w') as file :
-        file.write(str(what))
+        file.write(str(what).replace('\'', '\"'))
 
 def import_json(where: str) -> dict:
     path = db.path + '/' + where
