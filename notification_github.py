@@ -1,4 +1,4 @@
-import requests, os , time
+import requests, os, time, platform
 from subprocess import Popen, DEVNULL
  
 class db():
@@ -107,7 +107,10 @@ def newsChecker(what) -> None:
             notifications(f"{what}.{repositories}")
 
         time.sleep(2)
-        print(100*"\n")
+        if platform.system() == "Windows":
+            os.system("cls")
+        else:
+            os.system("clear")
         print('scanning for news ...')
 
 def main() -> None:
